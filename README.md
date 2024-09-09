@@ -1,21 +1,21 @@
-# Napier-Binary-Multiplication-Board
+# Napier Binary Multiplication Board
 
-1617 John Napier described three practival tools for doing math, in his book "Rabdology"
-One of them is a board that easily allows multiply binary numbers.
-(this was well before Leibniz "officially" invented the binary system in 1676)
+1617 John Napier described three practical tools for doing math in his book "Rabdology".
+One of them is a board that easily allows the multiplcation of binary numbers.
+(This was well before Leibniz "officially" invented the binary system in 1676)
 
-This is a 3D printable reconstruction of the board, best used with with standard 16mm marbles.
-Also somewhat works with grapes.
+Here is a 3D printable version of the board, best used with with standard 16mm marbles.
+It also somewhat works with grapes.
 
-The board consist of a 6 x 6 grid with numbers on the left, bottom and right margin.
+This version of the board consist of a 6 x 6 grid with numbers on the left, bottom and right margin.
 At the bottom margin (below the numbers) there is an extra row used only for input.
 At the right margin (beyond the numbers) there is an extra column to hold the second input number to multiply with.
 
 ### Properties of the board
 
-The board has several intersting and also quite intuitive properties, concerning movement of grapes (or marbles) on the board.
+The board has several interesting and also quite intuitive properties, concerning movement of grapes (or marbles) on the board.
 - Imagine, we place a grape on the intersection of row 8 and column 4, this grape represents value 8*4 = 32
-- Moving the one row up or down will double or half its value.
+- Moving one row up or down will double or half its value.
 - Same for moving left or right. This will also double or half the value.
 - Thus, moving diagonally left & down does not change the value at all: It gets halved and doubled at the same time, the changes cancel out each other.
 - Same for moving in the other direction on the same diagonal: The value remains. Any movement along e.G. (32,1) - (16,2) - (8,4) - (4,8) - (2,16) - (1,32) retains the value.
