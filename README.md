@@ -26,18 +26,23 @@ The board has several intersting and also quite intuitive properties, concerning
 
 The first number (44) is entered in the lower margin as 101100 (from left to right) - a grape represents a 1, an empty field represents 0.
 
+![entered 44](photos/photo_2024-09-09_17-54-04.jpg)
 
 The second number (22) is entered in the right hand margin as 010110 (from top to bottom).
 
+![entered also 22](photos/photo_2024-09-09_17-54-10.jpg)
 
 Whenever a row with a grape intersects a column with a grape, place a grape onto the grid.
 
+![fill intersections](photos/photo_2024-09-09_17-54-13.jpg)
 
 We can remove the "input" from the margins now.
 
+![removed input](photos/photo_2024-09-09_17-54-27.jpg)
 
 Move all grapes diagonally left & down until they hit the margin or collide with another grape.
 
+![moved diagonally](photos/photo_2024-09-09_17-54-30.jpg)
 
 To resolve collisions:
 - Move diagonally into the occupied space, holding the second grape ontop of the other one.  
@@ -46,3 +51,6 @@ To resolve collisions:
 
 Now we can read the result in binary 01111001000 notation 
 and convert it back to decimal: 512 + 256 + 128 + 64 + 8 = 968
+
+![final result](photos/photo_2024-09-09_17-54-35.jpg)
+
