@@ -1,7 +1,7 @@
 # Napier Binary Multiplication Board
 
 1617 John Napier described three practical tools for doing math in his book "Rabdology".
-One of them is a board that easily allows the multiplcation of binary numbers.
+One of them is a board that helps with the multiplication of binary numbers.
 (This was well before Leibniz "officially" invented the binary system in 1676)
 
 Here is a 3D printable version of the board, best used with with standard 16mm marbles.
