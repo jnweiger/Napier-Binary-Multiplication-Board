@@ -20,7 +20,7 @@ The board has several interesting and also quite intuitive properties, concernin
 - Thus, moving diagonally left & down does not change the value at all: It gets halved and doubled at the same time, the changes cancel out each other.
 - Same for moving in the other direction on the same diagonal: The value remains. Any movement along e.G. (32,1) - (16,2) - (8,4) - (4,8) - (2,16) - (1,32) retains the value.
 - When moved along the diagonal until it hits the bottom row (or left most column) the value becomes obvious: It is the number on the margin.
-- (Movement along the other digonal would multply by 4 or divide by four, we don't use that property)
+- (Movement along the other diagonal would multiply by 4 or divide by four, we don't use that property)
 
 ### Example Multiplication: 44 x 22
 
@@ -45,11 +45,11 @@ Move all grapes diagonally left & down until they hit the margin or collide with
 ![moved diagonally](photos/photo_2024-09-09_17-54-30.jpg)
 
 To resolve collisions:
-- Move diagonally into the occupied space, holding the second grape ontop of the other one.  
+- Move diagonally into the occupied space, holding the second grape on top of the other one.
 - Discard (eat) one of the grapes **and** move the other one upwards to the next free space.
 - After doing this with all collisions, there may be some new grapes that are not at the bottom or left row of the board.
 
-Now we can read the result in binary 01111001000 notation 
+Now we can read the result in binary 01111001000 notation
 and convert it back to decimal: 512 + 256 + 128 + 64 + 8 = 968
 
 ![final result](photos/photo_2024-09-09_17-54-35.jpg)
