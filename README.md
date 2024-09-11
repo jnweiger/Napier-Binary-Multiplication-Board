@@ -54,3 +54,6 @@ and convert it back to decimal: 512 + 256 + 128 + 64 + 8 = 968
 
 ![final result](photos/photo_2024-09-09_17-54-35.jpg)
 
+
+
+https://www.thingiverse.com/thing:6762793
